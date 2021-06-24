@@ -1,0 +1,447 @@
+*{
+	box-sizing: border-box;
+	
+
+}
+
+body{
+	font-family: Asap, sans-serif,Helvetica;	
+	background: #F2F2F2;
+	margin: 0;
+	padding: 0;
+}
+.header{
+	width: 100%;
+	height: 160px;
+	padding: 20px;
+	
+	
+}
+#logo{
+	width: 400px;
+	height: 120px;
+
+}
+#img{
+	width: 50px;
+	height: 50px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+}
+nav{
+	text-align: center;
+	background-color:#660007;
+	
+
+}
+nav ul{
+
+	list-style: none;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+}
+
+ nav a{
+ 	color: white;
+ 	text-decoration: none;
+ 	padding: 16px;
+ 	display: block;
+	font-weight: bold;
+}
+
+nav li{
+	float: left;
+}
+nav a:hover{
+	background-color: white;
+	color: #930;
+}
+
+
+
+#quite{
+	color: #660007;
+	position:absolute;
+	height:80px;
+	width: 60%;
+	margin-top: 30px;
+	left: 300px;
+	text-align: center;
+	font-size: 25px;
+	
+	
+
+}
+
+.title-envelop{
+	font-size: 25px;
+	
+
+}
+#envelop-a{
+	position: absolute;
+	margin-left: 5%;
+	width: 30%;
+	font-size: 30px;
+	
+}
+#envelop-b{
+	position: absolute;
+	margin-left: 35%;
+	width: 30%;
+	font-size: 30px;
+}
+#envelop-c{
+	position: absolute;
+	right: 5%;
+	width: 30%;
+	font-size: 30px;
+}
+#envelop-d{
+	position: absolute;
+	width: 30%;
+	margin-left: 18%;
+	margin-top: 350px;
+	font-size: 30px;
+}
+
+
+
+#envelop-e{
+	position: absolute;
+	height: 18.8em;
+	width: 30%;
+	margin-top: 350px;
+	margin-left: 55%;
+	font-size: 30px;
+}
+.saiba-mais{
+	color:#540024; 
+}
+.saiba-mais:hover{
+	text-decoration: none;
+	color: #8A0310;
+}
+.box{
+	width: 100%;
+	height: 650px;
+	text-align: center;
+	margin-top: 200px;
+	
+}
+
+#div-service{
+	padding-top: 150px;
+	
+}
+
+
+#text-a{
+	font-size: 30px;
+	color: #F2F2F2;
+	margin-top: 100px;
+	text-align: right;
+	padding: 100px;
+	background-color: #A32C34;
+	font-weight: bold;
+}
+
+#text-b{
+	font-size: 30px;
+	color: #F2F2F2;
+	margin-top: 100px;
+	text-align: right;
+	padding: 100px;
+	background-color: #A32C34;
+	font-weight: bold;
+
+}
+#text-c{
+	font-size: 30px;
+	color: #F2F2F2;
+	margin-top: 100px;
+	text-align: right;
+	padding: 100px;
+	background-color: #A32C34;
+	font-weight: bold;
+}
+
+#text-d{
+	font-size: 30px;
+	color: #F2F2F2;
+	margin-top: 100px;
+	text-align: right;
+	padding: 100px;
+	background-color: #A32C34;
+	font-weight: bold;
+}
+#text-e{
+	font-size: 30px;
+	color: #F2F2F2;
+	margin-top: 100px;
+	text-align: right;
+	padding: 100px;
+	background-color: #A32C34;
+	font-weight: bold;
+	
+
+}
+.imagem{
+	width: 380px;
+	height: 377px;
+	float: left;
+	margin-top: 100px;
+	
+
+}
+.seta{
+	left: 0;
+	position: absolute;
+	margin-top: -100px;
+	width: 500px;
+	height: 497px;
+	float: left;
+	}
+	
+
+
+.word{
+ display: none;
+}
+.faixa{
+	display: none;
+	
+	
+}
+
+#vision{
+	margin-top: 50px;
+	text-align: center;
+	color: white;
+	width: 100%;
+	height: 650px;
+	padding: 30px;
+	background-color: #660007; 
+	font-size: 22px;
+	font-weight: bold;
+} 
+
+ /*Contratar créditos*/
+
+#formulario{
+	margin-top: 60px;
+	width: 100%;
+	height: 130px;
+	color: black;
+	text-align: center;
+}
+
+#linha{
+	height:2px;
+	 border:none; 
+	 color:#000;
+}
+#form{
+	
+	margin-top: 50px;
+	width: 100%;
+	height: 650px;
+	border-radius: 14px;
+	text-align: center;
+}
+
+fieldset{
+	border: 0;
+}
+input, textarea, button{
+	border-radius: 5px;
+}
+#sobrenome{
+	margin-right: 40px;
+}
+#telefone{
+	margin-right: 15px;
+}
+#campo{
+	display: block;
+	color:#660007;
+	font-weight: bold;
+	font-size: 25px;
+}
+#mensage{
+	text-decoration: underline;
+}
+#list-credit{
+	display: block;
+	font-weight: bold;
+	font-size:  20px;
+
+}
+
+.botao{
+	font-size: 1.2em;
+	background: #660007;
+	border: 0;
+	color: #ffffff;
+	padding: 0.2em 0.6;
+	margin-left: -30px;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+	position: absolute;
+	cursor: pointer;
+	
+
+}
+.botao:hover{
+	background: #A32C34 ;
+	box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+	text-shadow: none;
+}
+
+/*Aqui é o rodapé para o contato*/
+
+footer{
+	padding: 20px;
+	color: white;
+	margin-top: 100px;
+	background-color: #660007;
+	display: table;
+	width: 100%;
+}
+
+footer dt {
+	font-weight: bold;
+}
+footer dd{
+	margin-left: 0;
+}
+footer dl{
+	display: table-cell;
+	vertical-align: middle;
+}
+#whats{
+	width: 70px;
+	height: 40px;
+	cursor: pointer;
+	
+}
+
+
+@media screen and (max-width: 600px){
+	#logo{
+	width: 180px;
+	height: 60px;
+	}
+	.header{
+		width: 100%;
+		height: 100px;
+		padding: 20px;
+			
+	}
+	
+	#quite{
+		font-size: 14px;
+	}
+	.box{
+	width: 100%;
+	height: 1400px;
+	text-align: center;
+	margin-top: 200px;
+
+	}
+	#envelop-a{
+	margin-left: 35%;
+	font-size: 15px;
+	}
+	#envelop-b{
+	margin-top: 260px;
+	margin-left: 35%;
+	font-size: 15px;
+	
+	}
+	#envelop-c{
+	margin-top: 530px;
+	right: 35%;
+	font-size: 15px;
+		
+	}
+	#envelop-d{
+	margin-top: 760px;
+	margin-left: 35%;
+	font-size: 15px;
+	}
+	#envelop-e{
+	margin-top: 1000px;
+	margin-left: 35%;
+	font-size: 15px;
+	}
+	.seta{
+	display: none;
+	}
+	
+	
+	.word{
+	display: block;
+	text-align: center;
+		
+	}
+	.faixa{
+	width: 363px;
+	display: block;
+	height: 120px;
+	background-color: #660007 ;
+	padding: 10px;
+	margin: -100px -30px -5px ;
+	margin-left: -100px;
+	border-radius: 10px;
+	}
+	
+	#text-a{
+		text-align: center;
+		font-size: 20px;
+		
+	}
+	#text-b{
+		text-align: center;
+		font-size: 20px;
+		
+	}
+	#text-c{
+		text-align: center;
+		font-size: 20px;
+		
+	}
+	#text-d{
+		text-align: center;
+		font-size: 20px;
+	}
+
+	#text-e{
+		text-align: center;
+		font-size: 20px;
+	}
+	
+	
+	
+	#vision{
+		font-size: 18px;
+	}
+	#list-credit{
+		font-size: 15px;
+	}
+	
+	#text-whats{
+		text-align: right;
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 1000px){
+	.seta{
+		display: none;
+		}
+		
+	
+}
